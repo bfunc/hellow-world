@@ -13,6 +13,6 @@ Both Server and Client consists of three sockets:
 ### Client
 Client's sockets are almost exact opposites of server’s socket set. 
 * SUB - When client first starts, it uses a SUB socket to subscribe to all state changes that a server will publish
-* REQ - after that, it creates a REQ socket to get server’s current absolute state which it will then remember and apply published updates to to stay in sync, and finally it uses
+* REQ - after that, it uses REQ socket to get server’s current absolute state which it will then remember and apply published updates to to stay in sync, and finally it uses
 * PUSH - socket to send client's own state changes to the server.
 
