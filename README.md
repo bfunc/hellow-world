@@ -1,5 +1,5 @@
 # Distributed Messaging Guide 
-Clone Pattern from ZeroMQ explained
+Clone Pattern explained (from ZeroMQ guide)
 
 ![Both Server and Client consists of three sockets](http://res.cloudinary.com/bfunc/image/upload/v1517130840/ZeroMQ_semantics_bvzzxt.jpg "Clone Pattern")
 
